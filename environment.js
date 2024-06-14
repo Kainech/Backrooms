@@ -6,7 +6,7 @@ export function createEnvironment(scene) {
     const floorMaterial = new THREE.MeshPhongMaterial({ color: 0x808080, side: THREE.DoubleSide });
     const floor = new THREE.Mesh(floorGeometry, floorMaterial);
     floor.rotation.x = -Math.PI / 2;
-    floor.position.y = -0.5;
+    floor.position.y = 0;
     scene.add(floor);
 
     //more environment objects here
